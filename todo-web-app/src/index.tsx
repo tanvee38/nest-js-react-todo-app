@@ -5,7 +5,7 @@ import { Home } from './components/home';
 import { Todos } from './components/TodoApp';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
-import './todo.css';
+import './styles.css';
 
 function App() {
   return (

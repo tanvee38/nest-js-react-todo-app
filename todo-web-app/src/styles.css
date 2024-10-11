@@ -1,0 +1,70 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Header */
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Buttons */
+.btn {
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Form */
+.form-control {
+    padding: 10px;
+    margin-bottom: 15px;
+}
